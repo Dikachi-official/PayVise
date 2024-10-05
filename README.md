@@ -94,7 +94,6 @@ Make sure you have the following installed on your machine:
 
 ```bash
 git clone 
-cd banking
 ```
 
 **Installation**
@@ -111,7 +110,7 @@ Create a new file named `.env` in the root of your project and add the following
 
 ```env
 #NEXT
-NEXT_PUBLIC_SITE_URL=
+NEXT_PUBLIC_SITE_URL= http://localhost:3000
 
 #APPWRITE
 NEXT_PUBLIC_APPWRITE_ENDPOINT=https://cloud.appwrite.io/v1
